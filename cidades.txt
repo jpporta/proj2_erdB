@@ -1,0 +1,442 @@
+Seatle
+2
+Portland
+Boise
+170
+500
+!
+Portland
+4
+Seatle
+San Francisco
+Lake Tahoe
+Boise
+170
+640
+580
+420
+!
+Boise
+4
+Seatle
+Portland
+Lake Tahoe
+Yellowstone
+500
+420
+420
+670
+!
+San Francisco
+3
+Portland
+Los Angeles
+Lake Tahoe
+640
+380
+300
+!
+Lake Tahoe
+5
+Portland
+San Francisco
+Palm Springs
+Salt Lake City
+Boise
+580
+300
+780
+520
+420
+!
+Yellowstone
+3
+Boise
+Denver
+Minneapolis
+670
+930
+1340
+!
+Salt Lake City
+4
+Lake Tahoe
+Las Vegas
+Phoenix
+Denver
+520
+420
+660
+530
+!
+Las Vegas
+4
+Salt Lake City
+Los Angeles
+Palm Springs
+Grand Canyon
+420
+270
+290
+470
+!
+Los Angeles
+4
+San Francisco
+San Diego
+Palm Springs
+Las Vegas
+380
+120
+160
+270
+!
+San Diego
+3
+Los Angeles
+Phoenix
+Palm Springs
+120
+350
+140
+!
+Palm Springs
+5
+Lake Tahoe
+Los Angeles
+San Diego
+Grand Canyon
+Las Vegas
+780
+160
+140
+440
+290
+!
+Phoenix
+6
+Grand Canyon
+San Diego
+San Antonio
+Dallas
+Albuquerque
+Salt Lake City
+360
+350
+990
+1070
+350
+660
+!
+Grand Canyon
+3
+Las Vegas
+Palm Springs
+Phoenix
+470
+440
+360
+!
+Albuquerque
+1
+Phoenix
+350
+!
+Denver
+6
+Yellowstone
+Salt Lake City
+Vail
+Aspen
+Colorado Springs
+Omaha
+930
+530
+160
+170
+120
+540
+!
+Vail
+2
+Denver
+Aspen
+160
+80
+!
+Aspen
+3
+Vail
+Colorado Springs
+Denver
+80
+180
+170
+!
+Colorado Springs
+3
+Aspen
+Dallas
+Denver
+180
+730
+120
+!
+San Antonio
+3
+Dallas
+Phoenix
+Houston
+280
+990
+310
+!
+Houston
+3
+Dallas
+San Antonio
+Nova Orleans
+250
+310
+530
+!
+Dallas
+7
+Colorado Springs
+Phoenix
+San Antonio
+Houston
+Atlanta
+Little Rock
+Kansas City
+730
+1070
+280
+250
+790
+320
+550
+!
+Minneapolis
+4
+Yellowstone
+Omaha
+Chicago
+Milwaukee
+1340
+380
+410
+340
+!
+Omaha
+4
+Minneapolis
+Denver
+Kansas City
+Chicago
+380
+540
+190
+470
+!
+Milwaukee
+2
+Minneapolis
+Chicago
+340
+90
+!
+Chicago
+7
+Milwaukee
+Minneapolis
+Omaha
+St Louis
+Indianapolis
+Washington
+Detroit
+90
+410
+470
+300
+180
+700
+280
+!
+Kansas City
+3
+Omaha
+Dallas
+St Louis
+190
+550
+250
+!
+St Louis
+5
+Chicago
+Kansas City
+Little Rock
+Memphis
+Indianapolis
+300
+250
+400
+290
+250
+!
+Little Rock
+3
+St Louis
+Dallas
+Memphis
+400
+320
+140
+!
+Nova Orleans
+4
+Atlanta
+Houston
+Miami
+Orlando
+470
+530
+860
+640
+!
+Memphis
+4
+St Louis
+Little Rock
+Atlanta
+Nashville
+290
+140
+390
+210
+!
+Detroit
+4
+Chicago
+Washington
+Nova York
+Albany
+280
+530
+640
+650
+!
+Indianapolis
+4
+Chicago
+St Louis
+Nashville
+Washington
+180
+250
+290
+590
+!
+Nashville
+4
+Indianapolis
+Memphis
+Atlanta
+Richmond
+290
+210
+240
+710
+!
+Atlanta
+6
+Nashville
+Memphis
+Dallas
+Nova Orleans
+Orlando
+Richmond
+240
+390
+790
+470
+440
+560
+!
+Miami
+3
+Fort Lauderdale
+Orlando
+Nova Orleans
+30
+230
+860
+!
+Fort Lauderdale
+2
+Orlando
+Miami
+180
+30
+!
+Orlando
+4
+Atlanta
+Nova Orleans
+Miami
+Fort Lauderdale
+440
+640
+230
+180
+!
+Richmond
+3
+Washington
+Nashville
+Atlanta
+200
+710
+560
+!
+Washington
+5
+Nova York
+Detroit
+Chicago
+Indianapolis
+Richmond
+240
+530
+700
+590
+200
+!
+Nova York
+4
+Boston
+Albany
+Detroit
+Washington
+210
+150
+640
+240
+!
+Boston
+2
+Albany
+Nova York
+170
+210
+!
+Albany
+3
+Detroit
+Nova York
+Boston
+650
+150
+170
+.
