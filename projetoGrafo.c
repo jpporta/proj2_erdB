@@ -11,19 +11,24 @@ int main(){
     tCity cidades[NCIDADES];
     int opcao;
     char cidadeInicial[20];
-    int caminho[100];
+    int matrizCusto[NCIDADES][NCIDADES];
 
     // recepção de todas as cidades pelo arquivo
     // também é feita a organização e linkagem delas no vetor de cidades
     recebeCidades(cidades);
-
+    criarMatriz(cidades, matrizCusto);
+    for(int i = 0; i < NCIDADES; i++){
+        for(int j = 0; j < NCIDADES; j++){
+            printf("%i ", matrizCusto[i][j]);
+        }
+        printf("\n");
+    }
     opcao = menu();
     switch (opcao) {
         case 1:
             puts("Cidade Inicial?");
             scanf("%s", cidadeInicial);
-            todasCidadesDestino(cidades, encontraCidade(cidadeInicial, cidades, 0, NCIDADES-1, 0),
-                encontraCidade(cidadeInicial, cidades, 0, NCIDADES-1, 0), caminho);
+
     }
 }
 int menu(){
