@@ -22,21 +22,56 @@ void criarMatriz(tCity cidades[], int matriz[NCIDADES][NCIDADES]){
         }
     }
 }
-//TSP
-// https://www.youtube.com/watch?v=vNqE_LDTsa0
-// 1° Comeca com a matriz conectada como temos
-// 2° Row Minimazation, subtrai os elemntos da uma linha pelo menor valor delas
-// 3° Columm Minimazation, subtrai os elemtos da coluna pelo menor valor delas
-// 4° Repetir 2 e 4 até todas as colunas e linhas terem pelo menos um zero
-// 5° Calcular a penalidade de cada zero, a penalidade de um zero é igual a soma
-// do menor valor da sua coluna com o menor valor de sua linhas
-// 6° Remover qualquer linha e coluna com um dos zeros de maior penalidade,
-// e adicionar ao conjunto resposta o caminho removido.
-// 7° Voltar ao passo 2 com a nova matriz, até a maior penalidade possivel de um
-// zero ser igual a zero
-// 8° Verificar se há uma possibilidade possivel para dada linha, remove-la, e
-// adiciona-la ao conjunto resposta
-// 9° Tentar repetir a partir de 2, até haver apenas uma linha e coluna, que será
-// o ultimo caminho a ser cruzado
-// 10°̣ Rearranjar os caminhos respostas para se conctarem
-// FIM
+
+void tst(tCity cidade){
+    tCaminho *raiz = *atual = NULL;
+    int numElementos = 0;
+    //Primeiro Elemento
+    tCaminho aux;
+    aux.index = 0;
+    aux.caminho[aux.index] = cidade;
+    aux.vizitadas = 1;
+    aux.dist = 0;
+    //SOLUCAO
+    tCaminho solucao;
+    solucao.dis = %infinity;
+
+    push(&atual, &numElementos, aux);
+    raiz = atual;
+
+    //Brute Force Start
+    while(numElementos > 0){
+        aux = pop(&raiz, &numElementos);
+        if(aux.index < 99){
+            //NAO ESTOROU O LIMITE
+            if(aux.vizitadas == NCIDADES && aux.caminho[aux.index] == cidade){
+            // EH SOLUCAO
+                if(aux.dist < solucao.dist){
+                    //MENOR SOLUCAO ATE O MOMENTO
+                    solucao = aux;
+                }
+            }
+            else{
+            // NAO EH SOLUCAO
+                tCity cidadeAux = aux.caminho[aux.index];
+                for(int i = 0; i < cidadeAux.qtdVizinhos; i++){
+                    tCaminho auxInsere;
+                    auxInsere = aux;
+
+                    auxInsere.index++; //INDEX
+                    auxInsere.caminho[auxInsere.index] = *(cidadeAux.vizinhos[i]); //VETOR COM VIZINHO ADICIONADO
+                    auxInsere.dist += (double)cidadeAux.dist[i]; //DISTANCIA ATULAIZADA
+                    //Checar se ja passou pela cidade
+                    int repetido = 0;
+                    for(tCIty forAux : auxInsere.caminho){
+                        if(forAux == cidadeAux) repetido = 1;
+                    }
+                    if(!repetido) auxInsere.vizitadas++;
+
+                    push(&atual, &numElementos, auxInsere);       
+                }
+            }
+        }
+    }
+    solucaoTST = solucao;
+}

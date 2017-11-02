@@ -7,6 +7,8 @@
 int menu();
 void clrscr();
 
+tCaminho solucaoTST;
+
 int main(){
     tCity cidades[NCIDADES];
     int opcao;
