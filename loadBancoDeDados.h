@@ -2,6 +2,7 @@
 
 typedef struct city{
     char name[20];
+    int index;
     int qtdVizinhos;
     struct city *vizinhos[10];
     int dist[10];
